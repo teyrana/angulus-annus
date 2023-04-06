@@ -1,0 +1,12 @@
+<h4>{{resource.name | uppercase}} -- Details</h4>
+
+<div><span>Id: </span>'{{resource.id}}'</div>
+
+<div>
+    <label for="name">Resource name: </label>
+    <input id="name" [(ngModel)]="resource.name" placeholder="name">
+</div>
+<div>
+    <label for="amount"> Resource Amount: </label>
+    <input id="amount" [(ngModel)]="resource.amount" placeholder="0.0">
+</div>
